@@ -26,12 +26,12 @@
 --------- */
 body {
     font-family: 'Fredoka', sans-serif;
+    text-align: center;
 }
 
 h1 {
     font-size: 26px;
     color: #E53170;
-    text-align: center;
     margin: 40px 0 60px;
 }
 
@@ -47,7 +47,9 @@ h1 {
     height: 100px;
     margin: 50px 15px 0;
     float: left;
-    background-color: #E53170;
+    background-color: #0f0e17;
+    /* box-shadow: 5px 5px #d8d8d7; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 div > img {
@@ -65,6 +67,7 @@ div > img {
 
 a {
     text-decoration: none;
+    color: #00b5f4;
 }
 
 small {
