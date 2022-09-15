@@ -1,0 +1,21 @@
+/* ---------
+    FORMAT
+--------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------
+    COMMON
+--------- */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
