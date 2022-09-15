@@ -35,6 +35,10 @@ h1 {
     margin: 40px 0 60px;
 }
 
+.col-assets {
+    color: #fff;
+}
+
 /* ---------
     MAIN
 --------- */
@@ -44,4 +48,26 @@ h1 {
     margin: 50px 15px 0;
     float: left;
     background-color: #E53170;
+}
+
+div > img {
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+
+.images-data {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    display: block;
+    padding: 10px 0;
 }
