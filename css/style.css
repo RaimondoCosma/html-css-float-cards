@@ -10,12 +10,38 @@
 /* ---------
     COMMON
 --------- */
-body {
-    font-family: 'Fredoka', sans-serif;
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+
+/* ---------
+    TYPOGRAPHY
+--------- */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    font-size: 26px;
+    color: #E53170;
+    text-align: center;
+    margin: 40px 0 60px;
+}
+
+/* ---------
+    MAIN
+--------- */
+.col-assets {
+    width: calc(100% / 3 - 30px);
+    height: 100px;
+    margin: 50px 15px 0;
+    float: left;
+    background-color: #E53170;
 }
