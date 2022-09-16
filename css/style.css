@@ -32,8 +32,8 @@ body {
 h1 {
     font-size: 26px;
     color: #E53170;
-    margin: 40px 0 60px;
-}
+    margin: 40px 0 60px;  /*usare il padding per creare spazio su perchè è uno spazio interno, dal paragrafo semanticamente è meglio un margin*/
+} 
 
 .col-assets {
     color: #fff;
@@ -55,6 +55,7 @@ h1 {
 div > img {
     width: 100px;
     height: 100px;
+    display: block;
     float: left;
 
 }
@@ -65,7 +66,7 @@ div > img {
     padding: 15px;
 }
 
-a {
+.images-data > a {
     text-decoration: none;
     color: #00b5f4;
 }
